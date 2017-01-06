@@ -32,10 +32,7 @@ require('next-port')().then(port => {
         })
       } else {
         const url = path.resolve(__dirname, '.' + (req.url.substr(-1) === '/' ? req.url + 'index.html' : req.url))
-
-        if (fs.existsSync(url)) {
-          fs.createReadStream(url).pipe(res)
-        } else fs.createReadStream('./404.html').pipe(res)
+        fs.createReadStream(fs.existsSync(url) ? url : './404.html').pipe(res)
       }
     })
     .on('error', console.log)
