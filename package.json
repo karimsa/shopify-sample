@@ -1,0 +1,29 @@
+{
+  "name": "shopify-sample",
+  "version": "0.0.1",
+  "description": "sample code to apply to Shopify Internship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karimsa/shopify-sample.git"
+  },
+  "keywords": [
+    "shopify",
+    "sample"
+  ],
+  "author": "Karim Alibhai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karimsa/shopify-sample/issues"
+  },
+  "homepage": "https://github.com/karimsa/shopify-sample#readme",
+  "dependencies": {
+    "map-stream": "^0.0.6",
+    "next-port": "^0.0.8",
+    "redux": "^3.6.0",
+    "streamqueue": "^1.1.1"
+  }
+}

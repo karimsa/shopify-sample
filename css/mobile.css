@@ -1,0 +1,43 @@
+@media (min-width: 480px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .pre-sum,
+  .sum {
+    width: 80%;
+  }
+
+  .pre-sum li, .sum p {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  [data-post]::after {
+    display: none;
+  }
+
+  .controls {
+    width: 90%;
+  }
+
+  .controls .name {
+    width: 100%;
+  }
+
+  .controls .help-text {
+    width: 100%;
+    margin-top: .5rem;
+  }
+
+  .controls .form-group select {
+    width: 130%;
+    margin-left: -30%;
+  }
+
+  .controls .preview {
+    display: none;
+  }
+}
