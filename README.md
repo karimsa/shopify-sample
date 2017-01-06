@@ -3,6 +3,8 @@
 Submission for the application to Shopify Developer Internship for the
 Summer of 2017.
 
+Requires: `node >= 6.x` (includes some ES6).
+
 ## Why the heck didn't I use Express, Bootstrap, React, Angular, etc.?
 
 Anyone can use tools. Anyone can glue things together. It's the new definition
